@@ -29,7 +29,7 @@ export default function Nav() {
           ) :
           (
             <>
-              <Link to="/login">Logi</Link>
+              <Link to="/login">Login</Link>
               {console.log(dashboard, "dtfgh")}
             </>
           )
