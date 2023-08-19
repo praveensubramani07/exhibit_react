@@ -1,7 +1,7 @@
 {
   "name": "home-app",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@react-oauth/google": "^0.11.1",
     "@testing-library/jest-dom": "^5.17.0",
