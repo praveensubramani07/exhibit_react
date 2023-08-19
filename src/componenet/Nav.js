@@ -19,7 +19,7 @@ export default function Nav() {
   return (
     <>
       <nav>
-        <h1>ProfileVerse</h1>
+        <h1>ExhibitMe</h1>
         <ul>
           {Cookies.get("email") !== null&&Cookies.get("email")!==undefined  ?  (
             <>
