@@ -86,7 +86,7 @@ const Profile = () => {
                 <p className="want">Want this to be your username?      <Link to="/login"><p className="link-to-login">Create a Page Now</p></Link></p>
                 
 
-                <h2>ExhibitMe</h2>
+               <Link to="/"> <h2>ExhibitMe</h2></Link>
             </div>
 
         </div>
