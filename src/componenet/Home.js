@@ -1,6 +1,6 @@
 import {Link } from 'react-router-dom';
 import './home.css';
-
+import Nav from './componenet/Nav'
 
 function Home(){
     
@@ -12,6 +12,7 @@ function Home(){
 
     return(
         <>
+        <Nav/>
         <section className='home'>
             <div class="container">
                 <div class="left-div">
