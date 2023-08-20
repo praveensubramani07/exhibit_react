@@ -71,7 +71,7 @@ const Profile = () => {
               ))}
 
             <div className="logo-at-last">
-              <p>ExhibitMe</p>
+             <Link to="/"> <p>ExhibitMe</p></Link>
             </div>
           </div>
         </div>
