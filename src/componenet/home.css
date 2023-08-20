@@ -21,7 +21,10 @@
 .container .left-div{
     flex: 1;
     padding: 10px;
-    
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
 }
 .container .right-div{
     flex: 1;
@@ -82,7 +85,10 @@
 .container-1 .right-div{
     flex: 1;
     padding: 10px;
-    
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
 }
 .container-1 .image-con {
     display: flex;
@@ -136,7 +142,10 @@
 .container-2 .left-div{
     flex: 1;
     padding: 10px;
-    
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
 }
 .container-2 .right-div{
     flex: 1;
@@ -198,7 +207,10 @@
 .container-3 .right-div{
     flex: 1;
     padding: 10px;
-    
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
 }
 .container-3 .image-con {
     display: flex;
