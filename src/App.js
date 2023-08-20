@@ -4,6 +4,7 @@ import Loging from './componenet/Loging'
 import { BrowserRouter,Routes,Route,Redirect} from 'react-router-dom'
 import Dashboard from './componenet/Dashboard'
 import Profile from './componenet/Profile'
+import Profile from './componenet/Home'
 
 export default function App() {
   const [username,setUsername]=useState(window.location.pathname)
@@ -17,7 +18,7 @@ export default function App() {
     
   <BrowserRouter>
   <Routes>
-    <Route path='/' element={<Nav/>}/>
+    <Route path='/' element={<Home/>}/>
     <Route path='/login' element={<Loging/>}/>
     <Route path='/dashboard' element={<Dashboard/>}/>
     <Route path='/:username' element={<Profile/>}/>
