@@ -54,7 +54,7 @@ const Profile = () => {
                 userInfo.socialLinks.map((socialLink) => (
                   <a key={socialLink._id} href={socialLink.url}>
                     <img
-                      src={`./images/${socialLink.platform}.png`}
+                      src={`./${socialLink.platform}.png`}
                       alt={socialLink.platform}
                     />
                   </a>
