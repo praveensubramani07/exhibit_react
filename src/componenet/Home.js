@@ -53,7 +53,7 @@ function Home(){
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius, mi at lacinia posuere.
                     </p>
                     <div className='button-con'>
-                       <Link to="/dashboard" className='create' >Login For Free and Claim Your Page</Link>
+                       <Link to="/dashboard" className='create' > Claim Your Page</Link>
                     </div>
 
                 </div>
