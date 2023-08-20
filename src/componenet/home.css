@@ -62,6 +62,7 @@
     background: #e9c0ea;
     text-decoration: none;
     font-size: 20px;
+    white-space:nowrap;
 }
 .container .button-con{
     margin-top: 50px;
@@ -123,7 +124,7 @@
     color: white;
     text-decoration: none;
     font-size: 20px;
-
+    white-space:nowrap;
 }
 .container-1 .button-con{
     margin-top: 50px;
@@ -183,7 +184,7 @@
     background: #e9c0ea;
     text-decoration: none;
     font-size: 20px;
-
+    white-space:nowrap;
 }
 .container-2 .button-con{
     margin-top: 50px;
@@ -244,7 +245,7 @@
     background: #e9c0ea;
     text-decoration: none;
     font-size: 20px;
-
+    white-space:nowrap;
 }
 .container-3 .button-con{
     margin-top: 50px;
