@@ -6,7 +6,7 @@ function Loader(){
         <div className="main-loader">
             <div className="loader">
                 
-            <img src="./images/loader.gif"></img>
+            <img src="./loader.gif"></img>
             
             </div>
         </div>
