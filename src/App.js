@@ -4,7 +4,7 @@ import Loging from './componenet/Loging'
 import { BrowserRouter,Routes,Route,Redirect} from 'react-router-dom'
 import Dashboard from './componenet/Dashboard'
 import Profile from './componenet/Profile'
-import Profile from './componenet/Home'
+import Home from './componenet/Home'
 
 export default function App() {
   const [username,setUsername]=useState(window.location.pathname)
