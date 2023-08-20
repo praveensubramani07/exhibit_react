@@ -17,11 +17,11 @@ function Home(){
             <div class="container">
                 <div class="left-div">
                     <p className='big-text'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing 
+                    Lorem ipsum dolor sit amet, conr adipiscing 
 
                     </p>
                     <p className='small-text'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius, mi at lacinia posuere.
+                    Lorem ipsum dolor sit amet, consecte adipiscing elit. Sed varius, mi at lacinia posuere.
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius, mi at lacinia posuere.
                     </p>
                     <div className='button-con'>
@@ -45,7 +45,7 @@ function Home(){
                 </div>
                 <div class="right-div">
                     <p className='big-text'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing 
+                    Lorem ipsum dolor sit amet, consec adipiscing 
 
                     </p>
                     <p className='small-text'>
@@ -66,7 +66,7 @@ function Home(){
             <div class="container-2">
                 <div class="left-div">
                     <p className='big-text'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing 
+                    Lorem ipsum dolor sit amet, conr adipiscing 
 
                     </p>
                     <p className='small-text'>
@@ -94,7 +94,7 @@ function Home(){
                 </div>
                 <div class="right-div">
                     <p className='big-text'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing 
+                    Lorem ipsum dolor sit amet, consr adipiscing 
 
                     </p>
                     <p className='small-text'>
