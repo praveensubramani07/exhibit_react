@@ -2,9 +2,9 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
+    background-color: white;
     padding: 15px;
-    color: white;
+    color: #333;
     
   }
   
