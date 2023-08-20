@@ -84,7 +84,11 @@ h1{
     margin-top: 60px;
     font-weight: bold;
 }
-
+.logo-at-last p{
+    font-weight: bold;
+    font-size:20px;
+    color: white;
+}
 .main-loader{
     width:100%;
     height: 100vh;
