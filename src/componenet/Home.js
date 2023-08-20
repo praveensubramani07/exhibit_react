@@ -30,7 +30,7 @@ function Home(){
                 </div>
                 <div class="right-div">
                     <div class="image-con">
-                        <img src="./images/exhibit3.gif" alt="Image" class="centered-image"/>
+                        <img src="./exhibit3.gif" alt="Image" class="centered-image"/>
                     </div>
                 </div>
             </div>
@@ -40,7 +40,7 @@ function Home(){
             <div class="container-1">
                 <div class="left-div">
                     <div class="image-con">
-                        <img src="./images/exhibit1.png" alt="Image" class="centered-image"/>
+                        <img src="./exhibit1.png" alt="Image" class="centered-image"/>
                     </div>
                 </div>
                 <div class="right-div">
@@ -79,7 +79,7 @@ function Home(){
                 </div>
                 <div class="right-div">
                     <div class="image-con">
-                        <img src="./images/exhibit2.png" alt="Image" class="centered-image"/>
+                        <img src="./exhibit2.png" alt="Image" class="centered-image"/>
                     </div>
                 </div>
             </div>
@@ -89,7 +89,7 @@ function Home(){
             <div class="container-3">
                 <div class="left-div">
                     <div class="image-con">
-                        <img src="./images/profile.png" alt="Image" class="centered-image"/>
+                        <img src="./profile.png" alt="Image" class="centered-image"/>
                     </div>
                 </div>
                 <div class="right-div">
