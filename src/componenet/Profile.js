@@ -69,7 +69,7 @@ const Profile = () => {
                   </p>
                 </div>
               ))}
-
+ExhibitMe
 <h2> <Link to="/"> ExhibitMe</Link></h2>
             
             <div className="logo-at-last">
