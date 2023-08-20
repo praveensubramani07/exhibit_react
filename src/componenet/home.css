@@ -21,7 +21,9 @@
 .container .left-div{
     flex: 1;
     padding: 10px;
-
+    display:flex;
+    align-items:center;
+    justify-content:center;
 }
 .container .right-div{
     flex: 1;
