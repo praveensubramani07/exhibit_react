@@ -49,7 +49,7 @@
 .container .big-text{
     margin-top:70px ;
     font-weight: bolder;
-    font-size: 70px;
+    font-size: 50px;
 }
 .container .small-text{
     margin-top: 30px;
@@ -109,11 +109,11 @@
 .container-1 .big-text{
     margin-top:30px ;
     font-weight: bolder;
-    font-size: 70px;
+    font-size: 50px;
 }
 .container-1 .small-text{
     margin-top: 30px;
-    font-size: 30px;
+    font-size: 25px;
 
 }
 .container-1 .create{
@@ -170,11 +170,11 @@
 .container-2 .big-text{
     margin-top:30px ;
     font-weight: bolder;
-    font-size: 70px;
+    font-size: 50px;
 }
 .container-2 .small-text{
     margin-top: 30px;
-    font-size: 30px;
+    font-size: 25px;
 
 }
 .container-2 .create{
@@ -264,11 +264,11 @@
 .container-3 .big-text{
     margin-top:30px ;
     font-weight: bolder;
-    font-size: 70px;
+    font-size: 50px;
 }
 .container-3 .small-text{
     margin-top: 30px;
-    font-size: 30px;
+    font-size: 25px;
 
 }
 .container-3 .create{
