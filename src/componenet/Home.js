@@ -91,6 +91,9 @@ function Home(){
                     <div class="image-con">
                         <img src="./IMG_20230820_182432.jpg
 " alt="Image" class="centered-image"/>
+    
+    <img src="./IMG_20230822_095242.jpg
+" alt="Image" class="centered-image2"/>
                     </div>
                 </div>
                 <div class="right-div">
