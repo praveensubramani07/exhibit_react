@@ -235,26 +235,25 @@
 }
 
 @keyframes fadeAnimation {
-    0% {
+    0%, 100% {
         opacity: 0;
     }
     50% {
         opacity: 1;
     }
-    100% {
-        opacity: 0;
-    }
 }
 
-.container-3 .image-con img:nth-child(1) {
+.container-3 .image-con img {
+    max-width: 100%;
+    height: auto;
     animation: fadeAnimation 4s infinite;
     animation-delay: 0s;
 }
 
 .container-3 .image-con img:nth-child(2) {
-    animation: fadeAnimation 4s infinite;
     animation-delay: 2s;
 }
+
 
 
 .container-3 .big-text{
