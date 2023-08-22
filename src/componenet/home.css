@@ -223,7 +223,7 @@
 
 .container-3 .centered-image {
     max-width: 100%; /* Ensure the image fits within the container */
-    max-height: 50%;
+    max-height: 30%;
     width: 300px;
     height: auto;
     /* Adjust as needed */
