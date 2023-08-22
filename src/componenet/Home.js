@@ -89,7 +89,8 @@ function Home(){
             <div class="container-3">
                 <div class="left-div">
                     <div class="image-con">
-                        <img src="./profile.png" alt="Image" class="centered-image"/>
+                        <img src="./IMG_20230820_182432.jpg
+" alt="Image" class="centered-image"/>
                     </div>
                 </div>
                 <div class="right-div">
