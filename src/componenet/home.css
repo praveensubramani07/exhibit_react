@@ -228,6 +228,13 @@
     height: auto;
     /* Adjust as needed */
 }
+.container-3 .centered-image2 {
+    max-width: 100%; /* Ensure the image fits within the container */
+    max-height: 30%;
+    width: 300px;
+    height: auto;
+    /* Adjust as needed */
+}
 .container-3 .big-text{
     margin-top:30px ;
     font-weight: bolder;
