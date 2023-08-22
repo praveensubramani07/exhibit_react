@@ -17,12 +17,11 @@ function Home(){
             <div class="container">
                 <div class="left-div">
                     <p className='big-text'>
-                    Lorem ipsum dolor sit amet, conr adipiscing 
+                    Join Us and Share Yourself Today" Description
 
                     </p>
                     <p className='small-text'>
-                    Lorem ipsum dolor sit amet, consecte adipiscing elit. Sed varius, mi at lacinia posuere.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius, mi at lacinia posuere.
+        Sign up to introduce yourself and connect with others on our platform.
                     </p>
                     <div className='button-con'>
                         <Link to="/dashboard" className='create' >Get Started For Free</Link>
@@ -45,13 +44,11 @@ function Home(){
                 </div>
                 <div class="right-div">
                     <p className='big-text'>
-                    Lorem ipsum dolor sit amet, consec adipiscing 
-
+                    Quick Setup, Seamless Connection
                     </p>
                     <p className='small-text'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius, mi at lacinia posuere.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius, mi at lacinia posuere.
-                    </p>
+                    Use Google Login and your name to start your profile. Complete with additional info.
+        </p>
                     <div className='button-con'>
                        <Link to="/dashboard" className='create' > Claim Your Page</Link>
                     </div>
@@ -66,13 +63,11 @@ function Home(){
             <div class="container-2">
                 <div class="left-div">
                     <p className='big-text'>
-                    Lorem ipsum dolor sit amet, conr adipiscing 
-
+                    Simplify Sharing Across Social Networks
                     </p>
                     <p className='small-text'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius, mi at lacinia posuere.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius, mi at lacinia posuere.
-                    </p>
+                    Effortlessly add your profile links to social media bios with a single click."
+        </p>
                     <div className='button-con'>
                         <Link to="/dashboard" className='create' >Share on Bio's</Link>
                     </div>
@@ -98,13 +93,11 @@ function Home(){
                 </div>
                 <div class="right-div">
                     <p className='big-text'>
-                    Lorem ipsum dolor sit amet, consr adipiscing 
-
+                    Express with Custom Background Colors
                     </p>
                     <p className='small-text'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius, mi at lacinia posuere.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius, mi at lacinia posuere.
-                    </p>
+                    Personalize your profile with customizable background colors that match your style.
+    </p>
                     <div className='button-con'>
                        <Link to="/dashboard" className='create'>Get Started for Free</Link>
                     </div>
