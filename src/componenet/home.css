@@ -199,11 +199,12 @@
     padding: 30px;
     background-color:#f3f3f1;
     color:#1e232f;
+    z-index:1;
 }
 .container-3 .left-div{
     flex: 1;
     padding: 10px;
-    
+    z-index:1;
 }
 .container-3 .right-div{
     flex: 1;
