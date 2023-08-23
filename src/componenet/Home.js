@@ -17,7 +17,7 @@ function Home(){
             <div class="container">
                 <div class="left-div">
                     <p className='big-text'>
-                    Join Us and Share Yourself Today" Description
+                    Join Us and Share Yourself Today
 
                     </p>
                     <p className='small-text'>
