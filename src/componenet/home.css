@@ -220,7 +220,7 @@
 }
 .container-3 .image-con {
     position: relative;
-    width: 50%;
+    width: auto;
     height: 50%;
     overflow: hidden;
 }
