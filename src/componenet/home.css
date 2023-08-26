@@ -220,7 +220,7 @@
 }
 .container-3 .image-con {
     position: relative;
-    width: 300px;
+    width: auto;
     height: 50%;
     overflow: hidden;
 }
@@ -230,7 +230,7 @@
     max-width: 100%;
     max-height: 100%;
     width: 100%;
-    height: auto;
+    height: 100%;
     transition: opacity 1s ease-in-out;
     opacity: 0;
 }
@@ -250,13 +250,15 @@
 
 .container-3 .image-con img {
     max-width: 100%;
-    height: auto;
+    height: 100%;
     animation: fadeAnimation 4s infinite;
     animation-delay: 0s;
 }
 
 .container-3 .image-con img:nth-child(2) {
     animation-delay: 2s;
+    height:auto;
+    width:auto;
 }
 
 
