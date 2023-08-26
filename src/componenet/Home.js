@@ -17,11 +17,11 @@ function Home(){
             <div class="container">
                 <div class="left-div">
                     <p className='big-text'>
-                    Join Us and Share Yourself Today
+                    Share Your Story with Confidence: One Link for All
 
                     </p>
                     <p className='small-text'>
-        Sign up to introduce yourself and connect with others on our platform.
+       Amplify engagement by sharing a single link across platforms. Your unique hub, a gateway to your digital narrative.
                     </p>
                     <div className='button-con'>
                         <Link to="/dashboard" className='create' >Get Started For Free</Link>
@@ -44,10 +44,10 @@ function Home(){
                 </div>
                 <div class="right-div">
                     <p className='big-text'>
-                    Quick Setup, Seamless Connection
+                    Craft Your Hub in Just Two Simple Steps
                     </p>
                     <p className='small-text'>
-                    Use Google Login and your name to start your profile. Complete with additional info.
+                    With just your username, swiftly build a personalized hub. Customize colors, arrange links – your online presence elevated seamlessly.
         </p>
                     <div className='button-con'>
                        <Link to="/dashboard" className='create' > Claim Your Page</Link>
@@ -63,10 +63,10 @@ function Home(){
             <div class="container-2">
                 <div class="left-div">
                     <p className='big-text'>
-                    Simplify Sharing Across Social Networks
+                   Uniqueness Defined: Colors and Arrangement, Your Way
                     </p>
                     <p className='small-text'>
-                    Effortlessly add your profile links to social media bios with a single click."
+                    Shape your hub's aesthetic with chosen colors, arranged layout. A reflection of your style, effortlessly enticing.
         </p>
                     <div className='button-con'>
                         <Link to="/dashboard" className='create' >Share on Bio's</Link>
@@ -93,10 +93,16 @@ function Home(){
                 </div>
                 <div class="right-div">
                     <p className='big-text'>
-                    Express with Custom Background Colors
+                   Unify Links, Unleash Potential: Your Digital Business Card
                     </p>
                     <p className='small-text'>
-                    Personalize your profile with customizable background colors that match your style.
+                   Forge a commanding online identity. From one hub, access all links, maximize your digital impact.
+
+
+
+
+
+
     </p>
                     <div className='button-con'>
                        <Link to="/dashboard" className='create'>Get Started for Free</Link>
