@@ -24,7 +24,7 @@ export default function Nav() {
           {Cookies.get("email") !== null&&Cookies.get("email")!==undefined  ?  (
             <>
               <Link to="/dashboard">Dashboard</Link>
-              <button onClick={logout}>Logout</button>
+              <button className="logout" onClick={logout}>Logout</button>
             </>
           ) :
           (
