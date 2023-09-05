@@ -1,5 +1,6 @@
 import React, {  useState } from "react";
 import "./newuser.css";
+import Dashboard from "./Dashboard.js";
 
 export default function Newuser(props) {
   const [input, setInput] = useState("");
@@ -8,7 +9,9 @@ export default function Newuser(props) {
   const [available, setAvailable] = useState(null);
   const [loading, setLoading] = useState(false);
   const [entered,setEntered]=useState()
+  const [submitted,setSubmitted]=useState(false)
 
+  
   const handelChange = async (e) => {
     setInput(e.target.value);
     setLoading(true); // Show the loading indicator
@@ -47,7 +50,9 @@ export default function Newuser(props) {
   };
 
   return (
+    
     <>
+    {(submitted== true)?<Dashboard/>:}
       <div className="bd">
         <form onSubmit={handelSubmit}>
           <label htmlFor="user">UserName</label>
