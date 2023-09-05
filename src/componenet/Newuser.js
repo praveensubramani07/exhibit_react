@@ -64,7 +64,7 @@ export default function Newuser(props) {
       ) : (
         <div className="bd">
           <form onSubmit={handleSubmit}>
-            <label htmlFor="user">UserName</label>
+            <label htmlFor="user">Usename</label>
             <input
               type="text"
               id="user"
