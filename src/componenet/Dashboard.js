@@ -34,6 +34,7 @@ export default function Dashboard() {
   return (
     <>
     <Nav/>
+    <p>in das</p>
       <h1>Dashboard</h1>
       <div className='cont'>
       <img src={cred.profilePicture}></img>
