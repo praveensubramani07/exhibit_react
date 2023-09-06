@@ -68,7 +68,8 @@ export default function Loging() {
       ) : (
         <>
         <Nav/>
-        <div>
+    <div className="main-login">
+        <div className="login-btn">
           <GoogleOAuthProvider clientId="268873119322-g9kj6sj7fb8dmbs2mnj2r14gnk719md0.apps.googleusercontent.com">
             <GoogleLogin
               onSuccess={handleLoginSuccess}
@@ -76,6 +77,7 @@ export default function Loging() {
             />
           </GoogleOAuthProvider>
         </div>
+    </div>
     </>
       )}
     </>
