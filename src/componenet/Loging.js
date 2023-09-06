@@ -66,6 +66,7 @@ export default function Loging() {
         // Render Newuser component with email and profile as props
         <Newuser email={email} profile={profileUrl} />
       ) : (
+        <>
         <Nav/>
         <div>
           <GoogleOAuthProvider clientId="268873119322-g9kj6sj7fb8dmbs2mnj2r14gnk719md0.apps.googleusercontent.com">
@@ -75,6 +76,7 @@ export default function Loging() {
             />
           </GoogleOAuthProvider>
         </div>
+    </>
       )}
     </>
   );
