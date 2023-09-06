@@ -6,6 +6,7 @@ import { useNavigate } from "react-router-dom";
 import Newuser from "./Newuser"; // Import Newuser component
 import Dashboard from "./Dashboard"; // Import Dashboard component
 import Nav from './Nav.js';
+import "./login.css";
 
 export default function Loging() {
   const [email, setEmail] = useState("not");
