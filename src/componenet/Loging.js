@@ -5,6 +5,7 @@ import jwt_decode from "jwt-decode";
 import { useNavigate } from "react-router-dom";
 import Newuser from "./Newuser"; // Import Newuser component
 import Dashboard from "./Dashboard"; // Import Dashboard component
+import Nav from './Nav.js';
 
 export default function Loging() {
   const [email, setEmail] = useState("not");
@@ -65,6 +66,7 @@ export default function Loging() {
         // Render Newuser component with email and profile as props
         <Newuser email={email} profile={profileUrl} />
       ) : (
+        <Nav/>
         <div>
           <GoogleOAuthProvider clientId="268873119322-g9kj6sj7fb8dmbs2mnj2r14gnk719md0.apps.googleusercontent.com">
             <GoogleLogin
