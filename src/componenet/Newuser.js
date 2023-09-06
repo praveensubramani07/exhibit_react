@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./newuser.css";
 import Dashboard from "./Dashboard.js";
 import { useNavigate } from "react-router-dom";
+import Cookies from "js-cookie"; // Import Cookies
 
 export default function Newuser(props) {
   const [input, setInput] = useState("");
@@ -48,9 +49,11 @@ export default function Newuser(props) {
 
     console.log(response);
 
-    setSubmitted(true);
+    // Set the email as a cookie
+    Cookies.set("email", props.email);
 
-    navigate("/dashboard"); // Navigate to dashboard after submission
+    // Navigate to the dashboard after submission
+    navigate("/dashboard");
   };
 
   return (
