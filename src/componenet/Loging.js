@@ -22,7 +22,9 @@ export default function Loging() {
         console.log(data.exists);
         console.log(email, "return email");
         if (data.exists) {
-          Cookies.set("email", email);
+        
+          Cookies.set("email", email, { expires: 30}); 
+          
           navigate("/dashboard");
         } else {
           // User doesn't exist, show the Newuser component
