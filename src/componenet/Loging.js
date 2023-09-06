@@ -71,6 +71,8 @@ export default function Loging() {
         <Nav/>
     <div className="main-login">
         <div className="login-btn">
+    <h2>Welcome to, ExhibitMe</h2>
+    <p>Continue with google</p>
           <GoogleOAuthProvider clientId="268873119322-g9kj6sj7fb8dmbs2mnj2r14gnk719md0.apps.googleusercontent.com">
             <GoogleLogin
               onSuccess={handleLoginSuccess}
