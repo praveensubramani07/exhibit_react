@@ -62,6 +62,7 @@ export default function Newuser(props) {
       {submitted ? (
         <Dashboard />
       ) : (
+        <>
         <Nav/>
         <div className="bd">
           <form onSubmit={handleSubmit}>
@@ -87,6 +88,7 @@ export default function Newuser(props) {
             <button type="submit">Submit</button>
           </form>
         </div>
+    </>
       )}
     </>
   );
