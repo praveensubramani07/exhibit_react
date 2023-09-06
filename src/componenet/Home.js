@@ -44,7 +44,7 @@ function Home(){
                 </div>
                 <div class="right-div">
                     <p className='big-text'>
-                    Craft Your Hub in Just Two Simple Steps
+                    Craftt Your Hub in Just Two Simple Steps
                     </p>
                     <p className='small-text'>
                     With just your username, swiftly build a personalized hub. Customize colors, arrange links – your online presence elevated seamlessly.
