@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./newuser.css";
 import Dashboard from "./Dashboard.js";
-import { useHistory } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 export default function Newuser(props) {
   const [input, setInput] = useState("");
@@ -10,7 +10,7 @@ export default function Newuser(props) {
   const [available, setAvailable] = useState(null);
   const [loading, setLoading] = useState(false);
   const [submitted, setSubmitted] = useState(false);
-  const history = useHistory();
+  const navigate = useNavigate(); // Use useNavigate for navigation
 
   const handleChange = async (e) => {
     setInput(e.target.value);
@@ -50,11 +50,9 @@ export default function Newuser(props) {
 
     console.log(response);
 
-    // Assuming submission is successful, set submitted to true
     setSubmitted(true);
 
-    // Redirect to the dashboard
-    history.push("/dashboard");
+    navigate("/dashboard"); // Use navigate for redirect
   };
 
   return (
@@ -64,7 +62,7 @@ export default function Newuser(props) {
       ) : (
         <div className="bd">
           <form onSubmit={handleSubmit}>
-            <label htmlFor="user">Usename</label>
+            <label htmlFor="user">Username</label>
             <input
               type="text"
               id="user"
@@ -90,4 +88,3 @@ export default function Newuser(props) {
     </>
   );
     }
-    
