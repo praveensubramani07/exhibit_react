@@ -19,7 +19,7 @@ export default function Nav() {
   return (
     <>
       <nav>
-       <Link to="/"> <h1>ExhibitMe</h1></Link>
+      <h1> <Link to="/"> ExhibitMe</Link></h1>
         <ul>
           {Cookies.get("email") !== null&&Cookies.get("email")!==undefined  ?  (
             <>
