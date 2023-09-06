@@ -43,15 +43,22 @@ export default function Loging() {
   const handleLoginError = () => {
     console.log("Login Failed");
   };
-  // Redirect to login if the email cookie is not present
-  if (Cookies.get("email")) {
-    navigate('/dashboard'); // Use navigate to redirect to login
-    return null; // Return null to prevent rendering anything before redirect
-  }
+
+  // Check if the email cookie is set
+  const isEmailCookieSet = Cookies.get("email");
+
+  // If the email cookie is set, navigate to /dashboard
+  useEffect(() => {
+    if (isEmailCookieSet) {
+      navigate("/dashboard");
+    }
+  }, [isEmailCookieSet, navigate]);
+
   return (
     <>
-      {Cookies.get("email") ? (
-        navigate("/dashboard")
+      {isEmailCookieSet ? (
+        // Render Dashboard component if email cookie is set
+        <Dashboard />
       ) : showNewUser ? (
         // Render Newuser component with email and profile as props
         <Newuser email={email} profile={profileUrl} />
@@ -67,4 +74,5 @@ export default function Loging() {
       )}
     </>
   );
-}
+             }
+       
