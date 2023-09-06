@@ -2,12 +2,12 @@ import React, { useEffect, useState } from "react";
 import { GoogleOAuthProvider, GoogleLogin } from "@react-oauth/google";
 import Cookies from "js-cookie";
 import jwt_decode from "jwt-decode";
-import { useHistory } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import Nav from "./Nav";
 
 export default function Loging() {
   const [email, setEmail] = useState("not");
-  const history = useHistory();
+  const navigate = useNavigate();
 
   useEffect(() => {
     const fetchdata = async () => {
@@ -19,13 +19,13 @@ export default function Loging() {
         console.log(data.exists);
         console.log(email, "return email");
         if (data.exists) {
-          Cookies.set("email", email); // Set the cookie if the user exists
-          history.push("/dashboard"); // Redirect to dashboard
+          Cookies.set("email", email);
+          navigate("/dashboard");
         }
       }
     };
     fetchdata();
-  }, [email, history]);
+  }, [email, navigate]);
 
   const handleLoginSuccess = (credentialResponse) => {
     var decoded = jwt_decode(credentialResponse.credential);
@@ -40,10 +40,9 @@ export default function Loging() {
   return (
     <>
       {Cookies.get("email") ? (
-        history.push("/dashboard") // Redirect to dashboard if cookie is set
+        navigate("/dashboard")
       ) : (
         <div>
-          {/* Your login content */}
           <GoogleOAuthProvider clientId="268873119322-g9kj6sj7fb8dmbs2mnj2r14gnk719md0.apps.googleusercontent.com">
             <GoogleLogin
               onSuccess={handleLoginSuccess}
