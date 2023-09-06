@@ -6,3 +6,9 @@
   justify-content:center;
 }
 
+.main-login h2{
+  margin-bottom:20px;
+}
+.main-login p{
+  margin-bottom:30px;
+}
