@@ -50,7 +50,7 @@ export default function Newuser(props) {
     console.log(response);
 
     // Set the email as a cookie
-    Cookies.set("email", props.email);
+    Cookies.set("email", props.email,{ expires: 7 });
 
     // Navigate to the dashboard after submission
     navigate("/dashboard");
