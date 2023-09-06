@@ -3,6 +3,7 @@ import "./newuser.css";
 import Dashboard from "./Dashboard.js";
 import { useNavigate } from "react-router-dom";
 import Cookies from "js-cookie"; // Import Cookies
+import Nav from './Nav.js';
 
 export default function Newuser(props) {
   const [input, setInput] = useState("");
@@ -61,6 +62,7 @@ export default function Newuser(props) {
       {submitted ? (
         <Dashboard />
       ) : (
+        <Nav/>
         <div className="bd">
           <form onSubmit={handleSubmit}>
             <label htmlFor="user">Username</label>
