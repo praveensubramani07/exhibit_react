@@ -54,9 +54,7 @@ button{
     border-radius: 25px;
     padding:10px;
 }
-p{
-    margin-right:30px;
-}
+
 @media all and (max-width:500px) {
     *{
         margin: 0;
