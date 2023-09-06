@@ -5,12 +5,10 @@ import { useNavigate } from "react-router-dom";
 
 export default function Newuser(props) {
   const [input, setInput] = useState("");
-  const [usermail, setUsermail] = useState(props.gmail);
-  const [pro, setPro] = useState(props.profile.join(","));
   const [available, setAvailable] = useState(null);
   const [loading, setLoading] = useState(false);
   const [submitted, setSubmitted] = useState(false);
-  const navigate = useNavigate(); // Use useNavigate for navigation
+  const navigate = useNavigate();
 
   const handleChange = async (e) => {
     setInput(e.target.value);
@@ -35,8 +33,8 @@ export default function Newuser(props) {
 
     const dataToSend = {
       username: input,
-      email: usermail,
-      profilePicture: pro,
+      email: props.email, // Use the email prop
+      profilePicture: props.profile, // Use the profile prop
     };
 
     const response = await fetch(
@@ -52,7 +50,7 @@ export default function Newuser(props) {
 
     setSubmitted(true);
 
-    navigate("/dashboard"); // Use navigate for redirect
+    navigate("/dashboard"); // Navigate to dashboard after submission
   };
 
   return (
@@ -87,4 +85,4 @@ export default function Newuser(props) {
       )}
     </>
   );
-    }
+}
