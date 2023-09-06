@@ -43,7 +43,11 @@ export default function Loging() {
   const handleLoginError = () => {
     console.log("Login Failed");
   };
-
+  // Redirect to login if the email cookie is not present
+  if (Cookies.get("email")) {
+    navigate('/dashboard'); // Use navigate to redirect to login
+    return null; // Return null to prevent rendering anything before redirect
+  }
   return (
     <>
       {Cookies.get("email") ? (
