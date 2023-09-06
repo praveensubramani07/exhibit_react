@@ -1,9 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import Cookies from 'js-cookie';
 import Nav from './Nav.js';
+import { useNavigate } from 'react-router-dom'; // Import useNavigate for redirection
+import Loader from './Loader'; // Import Loader component
 
 export default function Dashboard() {
   const [cred, setCred] = useState(null); // Initialize cred as null for loading handling
+  const navigate = useNavigate(); // Initialize navigate function
 
   useEffect(() => {
     // Declare an async function to fetch data
@@ -27,15 +30,15 @@ export default function Dashboard() {
     };
   }, []); // Pass an empty dependency array to run the effect only once on mount
 
-  // Redirect if the email cookie is not present
+  // Redirect to login if the email cookie is not present
   if (!Cookies.get("email")) {
-    window.location.href = '/login';
+    navigate('/login'); // Use navigate to redirect to login
     return null; // Return null to prevent rendering anything before redirect
   }
 
-  // Handle loading state
+  // Handle loading state using Loader component
   if (cred === null) {
-    return <p>Loading...</p>;
+    return <Loader />;
   }
 
   return (
@@ -51,4 +54,3 @@ export default function Dashboard() {
     </>
   ); 
 }
-
