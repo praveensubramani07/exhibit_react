@@ -85,10 +85,12 @@ export default function Newuser(props) {
                   : "Username is already taken"}
               </p>
             )}
-              {available === true?(
+    {
+      available === true ? (
             <button type="submit">Submit</button>
-                ):<p>   <p/>
-}
+        ):( <p>  </p>)
+                
+    }
           </form>
         </div>
     </>
