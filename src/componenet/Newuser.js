@@ -87,7 +87,7 @@ export default function Newuser(props) {
             )}
               {available === true?(
             <button type="submit">Submit</button>
-                ):<p><p/>
+                ):<p>   <p/>
 }
           </form>
         </div>
