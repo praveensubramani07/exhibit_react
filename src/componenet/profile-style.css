@@ -67,7 +67,9 @@ h1{
 .social-links{
     
     height: 30px;
-    
+    display:flex;
+    flex-direction:column;
+    flex-wrap: wrap;
     margin: 20px;
 }
 .social-links img:hover{
