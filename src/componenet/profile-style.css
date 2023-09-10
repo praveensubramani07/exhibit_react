@@ -65,6 +65,9 @@ h1{
 }
 
 .social-links {
+    display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center;
   height: auto; /* Set a fixed height for the container */
   margin: 20px;
     margin-bottom:30px;
