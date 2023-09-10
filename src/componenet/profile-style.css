@@ -68,6 +68,7 @@ h1{
     display: flex;
   justify-content: center; /* Center horizontally */
   align-items: center;
+    flex-wrap: wrap;
   height: auto; /* Set a fixed height for the container */
   margin: 20px;
     margin-bottom:30px;
