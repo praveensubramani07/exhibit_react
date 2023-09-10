@@ -65,9 +65,6 @@ h1{
 }
 
 .social-links {
-  display: flex;
-  justify-content: center; /* Horizontally center icons */
-  align-items: center; /* Vertically center icons */
   height: 100px; /* Set a fixed height for the container */
   margin: 20px;
 }
