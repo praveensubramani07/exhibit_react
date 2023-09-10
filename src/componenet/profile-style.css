@@ -67,6 +67,7 @@ h1{
 .social-links {
   height: 100px; /* Set a fixed height for the container */
   margin: 20px;
+    margin-bottom:30px;
 }
 
 .social-links img:hover {
@@ -75,7 +76,7 @@ h1{
 }
 
 .social-links img {
-  height: 90%; 
+  height: 90px; 
   margin: 0;
 }
 
