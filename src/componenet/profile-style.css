@@ -65,7 +65,7 @@ h1{
 }
 
 .social-links {
-  height: 100px; /* Set a fixed height for the container */
+  height: auto; /* Set a fixed height for the container */
   margin: 20px;
     margin-bottom:30px;
 }
@@ -76,7 +76,7 @@ h1{
 }
 
 .social-links img {
-  height: 90px; 
+  height: 30px; 
   margin: 0;
 }
 
