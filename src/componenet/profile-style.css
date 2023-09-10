@@ -71,7 +71,7 @@ h1{
     flex-wrap: wrap;
   height: auto; /* Set a fixed height for the container */
   margin: 20px;
-    margin-bottom:30px;
+
 }
 
 .social-links img:hover {
