@@ -14,15 +14,10 @@ export default function Dashboard() {
   useEffect(() => {
     const fetchData = async () => {
       // ... (your existing fetch code)
-      const fetchData = async () => {
       
         const response = await fetch(`https://vast-rose-piranha-vest.cyclic.app/api/user/dashboard/${Cookies.get("email")}`);
         const data = await response.json();
         console.log(data);
-        
-
-    fetchData(); // Call the function to fetch data
-      
 
       setCred(data);
       setBio(data.bio || '');
