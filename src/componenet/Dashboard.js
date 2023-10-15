@@ -63,7 +63,7 @@ export default function Dashboard() {
     };
 
     try {
-      await fetch(`https://vast-rose-piranha-vest.cyclic.app/api/user/${cred.username}`, {
+      await fetch(`https://vast-rose-piranha-vest.cyclic.app/api/user/`, {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',
