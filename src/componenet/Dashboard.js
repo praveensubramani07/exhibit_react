@@ -15,7 +15,7 @@ export default function Dashboard() {
     const fetchData = async () => {
       // ... (your existing fetch code)
       const fetchData = async () => {
-      try {
+      
         const response = await fetch(`https://vast-rose-piranha-vest.cyclic.app/api/user/dashboard/${Cookies.get("email")}`);
         const data = await response.json();
         console.log(data);
