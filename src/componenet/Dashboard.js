@@ -90,8 +90,7 @@ export default function Dashboard() {
             />
           </div>
         ))}
-        <button onClick={() => setUser({ ...user, socialLinks: [...user.socialLinks, { platform: '', url: '' }])}>Add Social Link</button>
-
+<button onClick={() => setUser({ ...user, socialLinks: [...user.socialLinks, { platform: "", url: "" }]})}>Add Social Link</button>
         {/* Edit Other Links */}
         {user.otherLinks.map((link, index) => (
           <div key={index}>
