@@ -100,7 +100,7 @@ export default function Dashboard() {
             />
           </div>
         ))}
-        <button onClick={() => setUser({ ...user, otherLinks: [...user.otherLinks, { title: '', url: '' }])}>Add Other Link</button>
+        <button onClick={() => setUser({ ...user, otherLinks: [...user.otherLinks, { title: '', url: '' }]})}>Add Other Link</button>
         <button onClick={saveChanges}>Save Links</button>
       </div>
     </>
