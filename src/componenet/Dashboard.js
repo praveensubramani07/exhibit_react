@@ -75,7 +75,7 @@ export default function Dashboard() {
       <div className='cont'>
         <img src={user.profilePicture} alt="Profile" />
         <p>{user.username}</p>
-        <p>{user.email}
+        <p>{user.email}</p>
 
         {/* Edit Bio */}
         <textarea value={user.bio} onChange={handleBioChange} />
