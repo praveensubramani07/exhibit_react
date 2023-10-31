@@ -104,7 +104,10 @@ export default function Dashboard() {
       <Nav />
       <h1>Dashboard</h1>
       <div className='cont'>
-        <img src={user.profilePicture} alt="Profile" />
+        {user && (
+          <img src={user.profilePicture} alt="Profile" />
+        )}
+
         <p>{user.username}</p>
         <p>{user.email}</p>
 
