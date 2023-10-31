@@ -61,7 +61,7 @@ export default function Dashboard() {
   const saveChanges = async () => {
     try {
       await fetch(`https://vast-rose-piranha-vest.cyclic.app/api/user/`, {
-        method: 'PUT',
+        method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
