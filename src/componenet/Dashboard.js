@@ -108,7 +108,8 @@ export default function Dashboard() {
           <img src={user.profilePicture} alt="Profile" />
         )}
 
-        <p>{user.username}</p>
+        <p>{user && user.username}</p>
+
         <p>{user.email}</p>
 
         {/* Edit Bio */}
