@@ -14,6 +14,7 @@ export default function Dashboard() {
         navigate('/login');
       } else {
         try {
+          console.log("here");
           const response = await fetch(`https://vast-rose-piranha-vest.cyclic.app/api/user/dashboard/${Cookies.get("email")}`);
           if (response.ok) {
             const data = await response.json();
