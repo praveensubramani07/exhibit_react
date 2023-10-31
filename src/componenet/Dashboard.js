@@ -18,7 +18,7 @@ export default function Dashboard() {
           if (response.ok) {
             const data = await response.json();
             setUser(data);
-            console.log(user);
+            console.log(data);
           } else {
             navigate('/error');
           }
