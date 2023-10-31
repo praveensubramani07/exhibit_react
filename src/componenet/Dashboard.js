@@ -58,6 +58,18 @@ export default function Dashboard() {
     setUser({ ...user, otherLinks: updatedOtherLinks });
   };
 
+  const handleDeleteSocialLink = (index) => {
+    const updatedSocialLinks = [...user.socialLinks];
+    updatedSocialLinks.splice(index, 1);
+    setUser({ ...user, socialLinks: updatedSocialLinks });
+  };
+
+  const handleDeleteOtherLink = (index) => {
+    const updatedOtherLinks = [...user.otherLinks];
+    updatedOtherLinks.splice(index, 1);
+    setUser({ ...user, otherLinks: updatedOtherLinks });
+  };
+
   const saveChanges = async () => {
     try {
       await fetch(`https://vast-rose-piranha-vest.cyclic.app/api/user/`, {
@@ -67,6 +79,13 @@ export default function Dashboard() {
         },
         body: JSON.stringify(user),
       });
+
+      // Reload the user data after a successful update
+      const response = await fetch(`https://vast-rose-piranha-vest.cyclic.app/api/user/dashboard/${Cookies.get("email")}`);
+      if (response.ok) {
+        const data = await response.json();
+        setUser(data);
+      }
     } catch (error) {
       console.error('Error updating data:', error);
     }
@@ -79,10 +98,6 @@ export default function Dashboard() {
   const addOtherLink = () => {
     setUser({ ...user, otherLinks: [...user.otherLinks, { title: '', url: '' }] });
   };
-
-  if (user === null) {
-    return <Loader />;
-  }
 
   return (
     <>
@@ -110,6 +125,7 @@ export default function Dashboard() {
               onChange={(e) => handleSocialLinkChange(index, e)}
               placeholder="URL"
             />
+            <button onClick={() => handleDeleteSocialLink(index)}>Delete</button>
           </div>
         ))}
         <button onClick={addSocialLink}>Add Social Link</button>
@@ -127,6 +143,7 @@ export default function Dashboard() {
               onChange={(e) => handleOtherLinkChange(index, e)}
               placeholder="URL"
             />
+            <button onClick={() => handleDeleteOtherLink(index)}>Delete</button>
           </div>
         ))}
         <button onClick={addOtherLink}>Add Other Link</button>
@@ -135,5 +152,4 @@ export default function Dashboard() {
       </div>
     </>
   );
-        }
-    
+}
